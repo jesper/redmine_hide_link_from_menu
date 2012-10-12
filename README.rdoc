@@ -1,0 +1,5 @@
+= Redmine Hide Link from Menu Plugin
+
+By default, this plugin will hide "New Issue" from the project menu for a specific project. Can be esily modified to suit your needs by editing "init.rb"'
+
+Note: This plugin doesn't enforce any permissions - it only removes the link! 
