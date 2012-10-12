@@ -12,10 +12,10 @@ module Redmine
     module MenuHelper
       alias_method :old_allowed_node?, :allowed_node?
       def allowed_node?(node, user, project)
-         if project.to_s == 'PROJECT_NAME_GOES_HERE' and node.name == :new_issue
-           return false
-          end
-          old_allowed_node?(node, user, project)
+        if project.to_s == 'PROJECT_NAME_GOES_HERE' and node.name == :new_issue
+          return false
+        end
+        old_allowed_node?(node, user, project)
       end
     end
   end
